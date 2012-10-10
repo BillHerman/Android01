@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:columnWidth="100dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+  	android:numColumns="1"
+  
+    />
+
+<!--  
+
+stretchMode
+columnWidth 		Each column is stretched equally.  
+spacingWidth		The spacing between each column is stretched.  
+
+numColumns
+auto_fit = number of columns that fit the space
+1 = fixed number of columns
+
+ -->

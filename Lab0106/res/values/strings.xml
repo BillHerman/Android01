@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Lab0106</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_checkbox">Checkbox</string>
+    <string name="message">Checkbox Message</string>
+
+</resources>

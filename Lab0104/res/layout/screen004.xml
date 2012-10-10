@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- center and scaled up in size to fit minimum of 300 x 200 space -->
+    <!-- notice top and bottom are not cropped off -->
+    <!-- aspect ratio is maintained -->
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cat"
+        android:padding="@dimen/padding_medium"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cat"
+        tools:context=".ImageViewExample" />
+
+</RelativeLayout>

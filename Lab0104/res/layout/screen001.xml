@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- scaleType of center is simple center function -->
+    <!-- image size is 118 x 118 -->
+    <!-- simple center of the image in the 300 x 100 space -->
+    <!-- notice top and bottom are cropped off -->
+    
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cat"
+        android:padding="@dimen/padding_medium"
+        android:scaleType="center"
+        android:src="@drawable/cat"
+        tools:context=".ImageViewExample" />
+
+</RelativeLayout>

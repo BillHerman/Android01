@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- center and scale to available maximum 300 x 100 space -->
+    <!-- notice top and bottom are significantly cropped off -->
+    <!-- image grows to fill the entire width available -->
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cat"
+        android:padding="@dimen/padding_medium"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat"
+        tools:context=".ImageViewExample" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- centered and streached to match 300 x 100 space -->
+    <!-- aspect ratio is NOT maintained -->
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cat"
+        android:padding="@dimen/padding_medium"
+        android:scaleType="fitXY"
+        android:src="@drawable/cat"
+        tools:context=".ImageViewExample" />
+
+</RelativeLayout>

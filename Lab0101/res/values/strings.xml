@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Lab0101</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_text_view">Lab0101</string>
+    <string name="webURL">http://www.google.com</string>
+    <string name="emailAddress">wrherman@comcast.net</string>
+    <string name="big">BIG TEXT</string>
+
+</resources>
